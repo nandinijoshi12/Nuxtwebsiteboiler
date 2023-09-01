@@ -3,7 +3,8 @@ export default defineNuxtConfig({
   css: [
     '@/assets/css/style.css',
   ],
-
+  modules: ['nuxt-swiper'],
+  // plugins: [{ src: "@/plugins/aos", ssr: false, mode: "client" }],
   postcss: {
     plugins: {
       tailwindcss: {},
